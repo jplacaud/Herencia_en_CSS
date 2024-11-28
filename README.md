@@ -15,6 +15,7 @@ El proyecto incluye los siguientes elementos:
 1. **Sobre mí**: Una breve introducción personal.
 2. **Galería**: Una colección de imágenes con estilos interactivos.
 3. **Contacto**: Información para contactarme.
+4. **Comidas**: Se muestra la información de mis comidas favoritas.
 
 ## Cómo visualizar el proyecto
 
