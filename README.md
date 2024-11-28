@@ -20,9 +20,9 @@ El proyecto incluye los siguientes elementos:
 
 Este proyecto está publicado mediante **GitHub Pages**. Puedes acceder a la página web a través de la siguiente URL:
 
-🔗 **[Accede a la página aquí](https://<tu-usuario>.github.io/<nombre-del-repositorio>)**
+🔗 **[Accede a la página aquí](https://jplacaud.github.io/Intro_a_CSS/)**
 
-_Reemplaza `<tu-usuario>` y `<nombre-del-repositorio>` con tu nombre de usuario y el nombre del repositorio._
+`<jplacaud>` y `<Intro_a_CSS>`
 
 ## Estructura de archivos
 

@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f8f9fa;
     color: #000000;
+    box-sizing: border-box;
 }
 
 header {
@@ -63,6 +64,46 @@ section h2 {
 
 .gallery img:hover {
     transform: scale(1.1);
+}
+
+#Comida {
+    padding: 40px;
+    text-align: center;
+}
+
+.tarjeta {
+    width: 80%;
+    background-color: #FFD600;
+    border-radius: 15px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px;
+    color: black;
+    position: relative;
+}
+
+.tarjeta-lado-izquierdo {
+    width: 45%;
+    float: left;
+    padding: 10px;
+    font-size: 35px;
+}
+
+.tarjeta-lado-derecho {
+    width: 45%;
+    float: right;
+    padding: 40px;
+}
+
+.tarjeta-lado-derecho img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.tarjeta::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 footer {
