@@ -16,6 +16,8 @@ El proyecto incluye los siguientes elementos:
 2. **Galería**: Una colección de imágenes con estilos interactivos.
 3. **Contacto**: Información para contactarme.
 4. **Comidas**: Se muestra la información de mis comidas favoritas.
+5. **Tarjetas de contacto**: Mi tarjeta con mis perfiles para que me contacten. 
+
 
 ## Cómo visualizar el proyecto
 
