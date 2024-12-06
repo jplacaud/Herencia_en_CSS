@@ -17,6 +17,7 @@ El proyecto incluye los siguientes elementos:
 3. **Contacto**: Información para contactarme.
 4. **Comidas**: Se muestra la información de mis comidas favoritas.
 5. **Tarjetas de contacto**: Mi tarjeta con mis perfiles para que me contacten. 
+6. **Loción favorita**: Se agrega mi loción favorita en una tarjeta usando FlexBox.
 
 
 ## Cómo visualizar el proyecto
