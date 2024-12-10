@@ -19,6 +19,8 @@ El proyecto incluye los siguientes elementos:
 5. **Tarjetas de contacto**: Mi tarjeta con mis perfiles para que me contacten. 
 6. **Loción favorita**: Se agrega mi loción favorita en una tarjeta usando FlexBox.
 
+## Navbar
+Se modifica la **navbar** para hacerla más atractiva y más visual.
 
 ## Cómo visualizar el proyecto
 
