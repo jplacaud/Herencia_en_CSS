@@ -8,39 +8,53 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #5731ED;
-    color: #fff;
-    text-align: center;
-    padding: 1.5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
 nav {
-    background-color: #FFD600;
-    padding: 15px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
 }
 
-nav a {
+nav .logo a {
     text-decoration: none;
-    color: #000000;
+    color: #fff;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
-nav a:hover {
-    text-decoration: underline;
+nav .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .nav-links li {
+    display: inline;
+}
+
+nav .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav .nav-links a:hover {
+    color: #FFD600; 
 }
 
 section {
-    padding: 12px;
+    padding: 80px 20px;
     text-align: center;
 }
 
@@ -138,7 +152,7 @@ article button a{
     color: #fff;
 }
 
-#Tarj1 .TarjetaDeContacto{
+#Redes .TarjetaDeContacto{
     background-color: #5731ED;
     color: white;
     text-align: center;
@@ -149,12 +163,12 @@ article button a{
     padding: 10px 0;
 }
 
-#Tarj1 .TarjetaDeContacto img{
+#Redes .TarjetaDeContacto img{
     width: 80%;
     border-radius: 50%;
 }
 
-#Tarj1 .TarjetaDeContacto button{
+#Redes .TarjetaDeContacto button{
     display: block;
     margin: 5px auto;
     width: 80%;
@@ -165,7 +179,7 @@ article button a{
     color: white;
 }
 
-#Tarj2 {
+#Locion {
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -187,12 +201,12 @@ article button a{
 }
 
 
-#Tarj2 .TarjetaFlexbox  h2{
+#Locion .TarjetaFlexbox  h2{
     font-family: Fraunces;
     color: #f6d18a;
 }
 
-#Tarj2 .left{
+#Locion .left{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,14 +215,14 @@ article button a{
     overflow: hidden;
 }
 
-#Tarj2 .left img{
+#Locion .left img{
     max-width: 100%;
     max-height: 100%;
     object-fit: cover; 
     border-radius: 0%;
 }
 
-#Tarj2 .right{
+#Locion .right{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -216,52 +230,52 @@ article button a{
     width: 285px;
 }
 
-#Tarj2 .right * {
+#Locion .right * {
     margin: 10px 0;
 }
 
-#Tarj2 .right h6{
+#Locion .right h6{
 color: darkgray;
 font-family: montserrat;
 font-weight:300;
 letter-spacing: 4px;
 }
 
-#Tarj2 .right h2{
+#Locion .right h2{
     padding-right: 85px;
     }
 
-    #Tarj2 .right p{
+    #Locion .right p{
     padding-right: px;
     color: darkgray;
 }
 
-#Tarj2 .right .prices{
+#Locion .right .prices{
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-#Tarj2 .prices{
+#Locion .prices{
     display: flex;
 }
 
-#Tarj2 .right div span:first-child{
+#Locion .right div span:first-child{
     padding: 0 0 0 20px;
     color: #f6d18a;
     font-size: 1.5em;
     font-family: Fraunces;
 }
 
-#Tarj2 .right div span:last-child{
+#Locion .right div span:last-child{
     padding: 0 0 0 20px;
     color: darkgrey;
     font-size: .8em;
     text-decoration: line-through;
 }
 
-#Tarj2 .TarjetaFlexbox button{
+#Locion .TarjetaFlexbox button{
     background-color: #f6d18a;
     border: none;
     border-radius: 10px;
@@ -274,7 +288,7 @@ letter-spacing: 4px;
     cursor: pointer;
 }
 
-#Tarj2 .TarjetaFlexbox button img{
+#Locion .TarjetaFlexbox button img{
     margin: 0 10px ;
 }
 
