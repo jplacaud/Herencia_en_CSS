@@ -24,9 +24,7 @@ Se modifica la **navbar** para hacerla más atractiva y más visual.
 
 ## Cómo visualizar el proyecto
 
-Este proyecto está publicado mediante **GitHub Pages**. Puedes acceder a la página web a través de la siguiente URL:
-
-🔗 **[Accede a la página aquí](https://jplacaud.github.io/Intro_a_CSS/)**
+## La página se vuelve responsiva al llegar a una anchura de 768px
 
 `<jplacaud>` y `<Intro_a_CSS>`
 
